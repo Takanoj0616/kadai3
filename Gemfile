@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+<<<<<<< HEAD
 ruby '2.5.7'
+=======
+ruby '2.6.5'
+>>>>>>> d37eb5cdbe31fecbbf60e22c1e704be11fe92e23
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
@@ -52,6 +56,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+<<<<<<< HEAD
 
 group :test do
 　　:
@@ -62,3 +67,5 @@ group :test do
     gem 'shoulda-matchers'
     gem 'rails-controller-testing'
 end
+=======
+>>>>>>> d37eb5cdbe31fecbbf60e22c1e704be11fe92e23
